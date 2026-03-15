@@ -1,16 +1,13 @@
 import express from "express";
 import { createServer } from "http";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
   const server = createServer(app);
 
-  const staticPath = path.resolve(__dirname, process.env.NODE_ENV === "production" ? "public" : "../dist/public");
+  // Use process.cwd() to avoid __dirname and import.meta.url issues during esbuild/Vercel
+  const staticPath = path.resolve(process.cwd(), process.env.NODE_ENV === "production" ? "dist/public" : "dist/public");
 
   app.use(express.static(staticPath));
 
