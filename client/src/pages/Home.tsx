@@ -37,9 +37,9 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <UtilitySection />
         <MenuSection />
         <StorySection />
+        <UtilitySection />
       </main>
       <Footer />
     </div>

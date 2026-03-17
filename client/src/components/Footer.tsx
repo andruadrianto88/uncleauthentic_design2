@@ -4,9 +4,9 @@
    Social links, deep links, contact, "Powered by Square".
    ============================================================ */
 
-import { MapPin, Instagram, Facebook } from "lucide-react";
+import { MapPin, Instagram, Facebook, Clock } from "lucide-react";
 
-const ORDER_URL = "https://www.square.com/";
+const ORDER_URL = "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T";
 
 const NAV_LINKS = [
   { label: "Our Menu", href: "#menu" },
@@ -17,12 +17,12 @@ const NAV_LINKS = [
 const SOCIAL_LINKS = [
   {
     label: "Instagram",
-    href: "https://instagram.com/",
+    href: "https://www.instagram.com/uncleauthentic/",
     icon: <Instagram size={17} />,
   },
   {
     label: "Facebook",
-    href: "https://facebook.com/",
+    href: "https://www.facebook.com/unclechickenrice/?locale=zh_CN",
     icon: <Facebook size={17} />,
   },
 ];
@@ -102,6 +102,15 @@ export default function Footer() {
                 Adelaide, South Australia
               </p>
             </div>
+            
+            <div className="flex items-start gap-2 mb-6">
+              <Clock size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
+              <div className="font-body text-white/60" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
+                <p className="mb-0.5 font-semibold text-white/80">Opening Hours</p>
+                <p>Mon - Sun: 11:00 AM - 9:00 PM</p>
+              </div>
+            </div>
+
             <div className="flex gap-3 mt-4">
               {SOCIAL_LINKS.map((s) => (
                 <a
@@ -121,24 +130,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom row */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <p className="font-body text-white/30" style={{ fontSize: "0.75rem" }}>
             © {new Date().getFullYear()} Uncle Authentic. All rights reserved.
           </p>
-          <div className="flex items-center gap-2">
-            <span className="font-body text-white/25" style={{ fontSize: "0.7rem", letterSpacing: "0.08em" }}>
-              Powered by
-            </span>
-            <a
-              href={ORDER_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-body text-white/40 hover:text-ua-orange transition-colors duration-200"
-              style={{ fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.06em" }}
-            >
-              Square
-            </a>
-          </div>
         </div>
       </div>
     </footer>

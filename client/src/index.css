@@ -167,6 +167,10 @@
     font-family: 'Playfair Display', serif;
   }
 
+  .font-serif {
+    font-family: 'Lora', serif;
+  }
+
   .font-serif-italic {
     font-family: 'Lora', serif;
     font-style: italic;

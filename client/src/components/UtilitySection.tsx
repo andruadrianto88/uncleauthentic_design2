@@ -77,19 +77,19 @@ export default function UtilitySection() {
                 icon: <Navigation size={22} className="text-ua-orange" />,
                 title: "UberEats",
                 desc: "Fast delivery right to your door with UberEats.",
-                url: "#", // Replace with actual UberEats link
+                url: "https://www.ubereats.com/au/store/uncle-authentic-hainanese-chicken-rice/ZT_9ZY0VV6msQgmG6XhEow?srsltid=AfmBOorZx5LsRqi3HaW5dU14dkNVm-IzEkSoJVl7ZNn2bPEdNmns_0Dr",
               },
               {
                 icon: <ShoppingBag size={22} className="text-ua-orange" />,
                 title: "DoorDash",
                 desc: "Order through DoorDash and track your delivery.",
-                url: "#", // Replace with actual DoorDash link
+                url: "https://www.doordash.com/store/uncle-authentic-chicken-rice-%EF%BC%88-uncle-%E6%B5%B7%E5%8D%97%E9%B8%A1%E9%A5%AD%E4%B8%93%E9%97%A8%E5%BA%97%EF%BC%89-adelaide-25211693/34380555/?srsltid=AfmBOooLJi9LBDuxIjl9D8d2KJnFy8jyAIPwfGIYej35tzwjFp7MJ9o4",
               },
               {
                 icon: <UtensilsCrossed size={22} className="text-ua-orange" />,
                 title: "Pickup / Takeaway",
                 desc: "Order ahead and pick up at our Adelaide location.",
-                url: "#", // Replace with actual Pickup link if available
+                url: "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T",
               },
             ].map((card, i) => (
               <a

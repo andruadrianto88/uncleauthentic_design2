@@ -7,7 +7,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
-const ORDER_URL = "https://www.square.com/";
+const ORDER_URL = "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);

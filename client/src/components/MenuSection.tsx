@@ -45,42 +45,15 @@ export default function MenuSection() {
           </p>
           
           <a
-            href="/assets/Uncle%20-Menu_2024_July.pdf"
-            download="Uncle_Authentic_Menu.pdf"
+            href="/assets/menu.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2 mb-10"
           >
             <Download size={16} />
-            Download Full Menu (PDF)
+            See the Menu
           </a>
         </div>
-
-        {/* Menu Image Display */}
-        <div className="relative fade-up delay-200 w-full overflow-hidden shadow-xl" style={{ borderRadius: "4px" }}>
-          {/* Default to menu-image.jpg or webp. Provide placeholder alt text */}
-          <img
-            src="/assets/menu.jpg" 
-            alt="Uncle Authentic Full Menu"
-            className="w-full object-cover"
-            style={{ display: "block", minHeight: "400px", backgroundColor: "#fff" }}
-            onError={(e) => {
-              // Fallback styling if image not uploaded yet
-              e.currentTarget.style.display = 'none';
-              if (e.currentTarget.nextElementSibling) {
-                (e.currentTarget.nextElementSibling as HTMLElement).style.display = 'flex';
-              }
-            }}
-            loading="lazy"
-          />
-          {/* Fallback box shown if image fails to load */}
-          <div 
-            className="w-full bg-white flex-col items-center justify-center border-2 border-dashed border-ua-charcoal/20 p-12 text-center"
-            style={{ display: "none", minHeight: "400px" }}
-          >
-            <p className="font-display text-ua-charcoal/50 text-xl font-bold mb-2">Menu Image Pending</p>
-            <p className="font-body text-ua-charcoal/40 text-sm">Please upload <code>menu-image.webp</code> to the public folder.</p>
-          </div>
-        </div>
-        
       </div>
     </section>
   );

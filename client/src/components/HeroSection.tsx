@@ -4,7 +4,7 @@
    text anchored left. Blue plate circle motif in background.
    ============================================================ */
 
-const ORDER_URL = "https://www.square.com/";
+const ORDER_URL = "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T";
 
 const HERO_IMAGE =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663440308690/gdtnstsFtdGYsiWxcLLTG3/hero-chicken-rice-oSX7nMLU2VfatgabLz8pVv.webp";
@@ -60,7 +60,7 @@ export default function HeroSection() {
 
           {/* Headline */}
           <h1
-            className="font-display text-white mb-5 fade-up delay-100"
+            className="font-serif text-white mb-5 fade-up delay-100"
             style={{
               fontSize: "clamp(2.8rem, 7vw, 5.5rem)",
               lineHeight: 1.05,
@@ -68,9 +68,9 @@ export default function HeroSection() {
               fontWeight: 700,
             }}
           >
-            THE CRAFT
+            AUTHENTIC
             <br />
-            <span style={{ fontStyle: "italic", color: "#FF5E00" }}>OF AUTHENTICITY.</span>
+            <span style={{ fontStyle: "italic", color: "#FF5E00" }}>SINCE 2017.</span>
           </h1>
 
           {/* Subheadline */}
