@@ -88,7 +88,9 @@ export default function Footer() {
             <div className="flex items-start gap-2 mb-4">
               <MapPin size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
               <p className="font-body text-white/60" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
-                Adelaide, South Australia
+                4A/8 Waymouth St,
+                <br />
+                Adelaide SA 5000
               </p>
             </div>
             

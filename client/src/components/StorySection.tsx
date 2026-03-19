@@ -148,7 +148,7 @@ export default function StorySection() {
           <div className="grid grid-cols-2 gap-4 fade-up delay-500">
             {[
               { label: "Poaching Method", value: "Traditional slow-poach in aromatic broth" },
-              { label: "Roasting Method", value: "High-heat air-roast for perfect crackling" },
+              { label: "Roasting Method", value: "High-heat oil bath for perfect crackling" },
             ].map((item) => (
               <div key={item.label}>
                 <p
