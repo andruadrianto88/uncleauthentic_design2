@@ -41,25 +41,14 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div
-                className="flex items-center justify-center rounded-full"
-                style={{ width: "2.25rem", height: "2.25rem", backgroundColor: "#FF5E00", flexShrink: 0 }}
-              >
-                <span className="font-display font-bold text-white" style={{ fontSize: "0.5rem", letterSpacing: "0.08em" }}>
-                  UNCLE
-                </span>
-              </div>
-              <div>
-                <div className="font-display font-bold text-white" style={{ fontSize: "0.85rem", letterSpacing: "0.04em" }}>
-                  UNCLE AUTHENTIC
-                </div>
-                <div className="font-body text-white/40" style={{ fontSize: "0.6rem", letterSpacing: "0.12em", textTransform: "uppercase" }}>
-                  Hainanese Chicken Rice
-                </div>
-              </div>
+              <img
+                src="/assets/logo.png"
+                alt="Uncle Authentic Logo"
+                className="h-10 w-auto object-contain flex-shrink-0"
+              />
             </div>
             <p className="font-body text-white/50" style={{ fontSize: "0.8125rem", lineHeight: 1.7, maxWidth: "240px" }}>
-              Adelaide's most authentic Hainanese Chicken Rice. Prepared with uncompromising care, daily.
+              Adelaide's authentic Hainanese Chicken Rice. Prepared with uncompromising care, daily.
             </p>
           </div>
 
@@ -107,7 +96,7 @@ export default function Footer() {
               <Clock size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
               <div className="font-body text-white/60" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
                 <p className="mb-0.5 font-semibold text-white/80">Opening Hours</p>
-                <p>Mon - Sun: 11:00 AM - 9:00 PM</p>
+                <p>Mon - Sat: 11:00 AM - 8:00 PM</p>
               </div>
             </div>
 

@@ -62,15 +62,16 @@ export default function HeroSection() {
           <h1
             className="font-serif text-white mb-5 fade-up delay-100"
             style={{
-              fontSize: "clamp(2.8rem, 7vw, 5.5rem)",
+              // Slightly adjusted clamp to accommodate longer text
+              fontSize: "clamp(2.4rem, 6vw, 4.8rem)",
               lineHeight: 1.05,
               letterSpacing: "-0.02em",
               fontWeight: 700,
             }}
           >
-            AUTHENTIC
+            UNCLE AUTHENTIC
             <br />
-            <span style={{ fontStyle: "italic", color: "#FF5E00" }}>SINCE 2017.</span>
+            <span style={{ fontStyle: "italic", color: "#FF5E00" }}>CHICKEN RICE.</span>
           </h1>
 
           {/* Subheadline */}

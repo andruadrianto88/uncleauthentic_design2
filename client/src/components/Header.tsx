@@ -36,37 +36,12 @@ export default function Header() {
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3 group" aria-label="Uncle Authentic Home">
-          {/* Orange circle with UNCLE text */}
-          <div
-            className="flex items-center justify-center rounded-full transition-transform duration-200 group-hover:scale-105"
-            style={{
-              width: "2.5rem",
-              height: "2.5rem",
-              backgroundColor: "#FF5E00",
-              flexShrink: 0,
-            }}
-          >
-            <span
-              className="font-display font-bold text-white"
-              style={{ fontSize: "0.55rem", letterSpacing: "0.08em" }}
-            >
-              UNCLE
-            </span>
-          </div>
-          <div className="flex flex-col leading-none">
-            <span
-              className="font-display font-bold text-white"
-              style={{ fontSize: "0.9rem", letterSpacing: "0.04em" }}
-            >
-              UNCLE AUTHENTIC
-            </span>
-            <span
-              className="font-body text-white/60"
-              style={{ fontSize: "0.6rem", letterSpacing: "0.14em", textTransform: "uppercase" }}
-            >
-              Hainanese Chicken Rice
-            </span>
-          </div>
+          {/* Logo Image */}
+          <img
+            src="/assets/logo.png"
+            alt="Uncle Authentic Logo"
+            className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-105 flex-shrink-0"
+          />
         </a>
 
         {/* Desktop Nav */}
