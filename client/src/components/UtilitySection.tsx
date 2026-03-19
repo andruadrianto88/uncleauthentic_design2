@@ -74,6 +74,12 @@ export default function UtilitySection() {
           <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 fade-up delay-200">
             {[
               {
+                icon: <UtensilsCrossed size={22} className="text-ua-orange" />,
+                title: "Pickup / Takeaway",
+                desc: "Order ahead and pick up at our Adelaide location.",
+                url: "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T",
+              },
+              {
                 icon: <Navigation size={22} className="text-ua-orange" />,
                 title: "UberEats",
                 desc: "Fast delivery right to your door with UberEats.",
@@ -84,12 +90,6 @@ export default function UtilitySection() {
                 title: "DoorDash",
                 desc: "Order through DoorDash and track your delivery.",
                 url: "https://www.doordash.com/store/uncle-authentic-chicken-rice-%EF%BC%88-uncle-%E6%B5%B7%E5%8D%97%E9%B8%A1%E9%A5%AD%E4%B8%93%E9%97%A8%E5%BA%97%EF%BC%89-adelaide-25211693/34380555/?srsltid=AfmBOooLJi9LBDuxIjl9D8d2KJnFy8jyAIPwfGIYej35tzwjFp7MJ9o4",
-              },
-              {
-                icon: <UtensilsCrossed size={22} className="text-ua-orange" />,
-                title: "Pickup / Takeaway",
-                desc: "Order ahead and pick up at our Adelaide location.",
-                url: "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T",
               },
             ].map((card, i) => (
               <a
