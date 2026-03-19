@@ -85,14 +85,19 @@ export default function Footer() {
             >
               Find Us
             </p>
-            <div className="flex items-start gap-2 mb-4">
+            <a
+              href="https://maps.google.com/?q=4A/8+Waymouth+St,+Adelaide+SA+5000"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-2 mb-4 group hover:opacity-80 transition-opacity"
+            >
               <MapPin size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
-              <p className="font-body text-white/60" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
+              <div className="font-body text-white/60 group-hover:text-ua-orange transition-colors" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
                 4A/8 Waymouth St,
                 <br />
                 Adelaide SA 5000
-              </p>
-            </div>
+              </div>
+            </a>
             
             <div className="flex items-start gap-2 mb-6">
               <Clock size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
