@@ -58,13 +58,7 @@ export default function UtilitySection() {
               <div className="flex items-center gap-2 bg-ua-cream px-4 py-2.5 rounded-sm">
                 <MapPin size={15} className="text-ua-orange" />
                 <span className="font-body text-ua-charcoal/80" style={{ fontSize: "0.875rem" }}>
-                  Adelaide, South Australia
-                </span>
-              </div>
-              <div className="flex items-center gap-2 bg-ua-cream px-4 py-2.5 rounded-sm">
-                <Clock size={15} className="text-ua-orange" />
-                <span className="font-body text-ua-charcoal/80" style={{ fontSize: "0.875rem" }}>
-                  Check platforms for live hours
+                  4A/8 Waymouth St, Adelaide SA 5000
                 </span>
               </div>
             </div>
