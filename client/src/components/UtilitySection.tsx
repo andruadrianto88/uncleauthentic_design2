@@ -4,7 +4,7 @@
    Clean, sophisticated. Features: UberEats, DoorDash, Pickup.
    ============================================================ */
 
-import { MapPin, Clock, ArrowRight, ShoppingBag, UtensilsCrossed, Navigation } from "lucide-react";
+import { MapPin, Clock, ArrowRight, ShoppingBag, UtensilsCrossed, Navigation, Mail } from "lucide-react";
 
 export default function UtilitySection() {
   return (
@@ -61,6 +61,12 @@ export default function UtilitySection() {
                   4A/8 Waymouth St, Adelaide SA 5000
                 </span>
               </div>
+              <a href="mailto:growiseuncle@gmail.com" className="flex items-center gap-2 bg-ua-orange/10 px-4 py-2.5 rounded-sm border border-ua-orange/20 hover:bg-ua-orange/20 transition-colors group">
+                <Mail size={15} className="text-ua-orange" />
+                <span className="font-body text-ua-charcoal font-medium" style={{ fontSize: "0.925rem" }}>
+                  Catering available — contact <span className="font-semibold text-ua-charcoal group-hover:text-ua-orange transition-colors">growiseuncle@gmail.com</span> for details
+                </span>
+              </a>
             </div>
           </div>
 

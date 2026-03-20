@@ -4,7 +4,7 @@
    Social links, deep links, contact, "Powered by Square".
    ============================================================ */
 
-import { MapPin, Instagram, Facebook, Clock } from "lucide-react";
+import { MapPin, Instagram, Facebook, Clock, Mail } from "lucide-react";
 
 const ORDER_URL = "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T";
 
@@ -106,6 +106,17 @@ export default function Footer() {
                 <p>Mon - Sat: 11:00 AM - 8:00 PM</p>
               </div>
             </div>
+
+            <a
+              href="mailto:growiseuncle@gmail.com"
+              className="flex items-start gap-2 mb-6 group hover:opacity-80 transition-opacity"
+            >
+              <Mail size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
+              <div className="font-body text-white/60 group-hover:text-ua-orange transition-colors" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
+                <p className="mb-0.5 font-semibold text-white/80">Email</p>
+                <p>growiseuncle@gmail.com</p>
+              </div>
+            </a>
 
             <div className="flex gap-3 mt-4">
               {SOCIAL_LINKS.map((s) => (
