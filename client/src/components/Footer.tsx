@@ -25,6 +25,11 @@ const SOCIAL_LINKS = [
     href: "https://www.facebook.com/unclechickenrice/?locale=zh_CN",
     icon: <Facebook size={17} />,
   },
+  {
+    label: "Email",
+    href: "mailto:growiseuncle@gmail.com",
+    icon: <Mail size={17} />,
+  },
 ];
 
 export default function Footer() {
@@ -106,25 +111,13 @@ export default function Footer() {
                 <p>Mon - Sat: 11:00 AM - 8:00 PM</p>
               </div>
             </div>
-
-            <a
-              href="mailto:growiseuncle@gmail.com"
-              className="flex items-start gap-2 mb-6 group hover:opacity-80 transition-opacity"
-            >
-              <Mail size={14} className="text-ua-orange mt-0.5 flex-shrink-0" />
-              <div className="font-body text-white/60 group-hover:text-ua-orange transition-colors" style={{ fontSize: "0.875rem", lineHeight: 1.6 }}>
-                <p className="mb-0.5 font-semibold text-white/80">Email</p>
-                <p>growiseuncle@gmail.com</p>
-              </div>
-            </a>
-
-            <div className="flex gap-3 mt-4">
+            <div className="flex gap-3 mt-6">
               {SOCIAL_LINKS.map((s) => (
                 <a
                   key={s.label}
                   href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={s.label === "Email" ? undefined : "_blank"}
+                  rel={s.label === "Email" ? undefined : "noopener noreferrer"}
                   aria-label={s.label}
                   className="flex items-center justify-center text-white/50 hover:text-ua-orange border border-white/15 hover:border-ua-orange/40 transition-all duration-200"
                   style={{ width: "2.25rem", height: "2.25rem", borderRadius: "2px" }}
