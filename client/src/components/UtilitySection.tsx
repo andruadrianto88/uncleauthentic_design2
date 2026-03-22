@@ -5,6 +5,7 @@
    ============================================================ */
 
 import { MapPin, Clock, ArrowRight, ShoppingBag, UtensilsCrossed, Navigation, Mail } from "lucide-react";
+import Clarity from '@microsoft/clarity';
 
 export default function UtilitySection() {
   return (
@@ -78,18 +79,21 @@ export default function UtilitySection() {
                 title: "Pickup / Takeaway",
                 desc: "Order ahead and pick up at our Adelaide location.",
                 url: "https://uncleauthentichainanesechickenrice.square.site/#LS4DASL34NHSUXOKE5MYQK5T",
+                eventId: "click_pickup"
               },
               {
                 icon: <Navigation size={22} className="text-ua-orange" />,
                 title: "UberEats",
                 desc: "Fast delivery right to your door with UberEats.",
                 url: "https://www.ubereats.com/au/store/uncle-authentic-hainanese-chicken-rice/ZT_9ZY0VV6msQgmG6XhEow?srsltid=AfmBOorZx5LsRqi3HaW5dU14dkNVm-IzEkSoJVl7ZNn2bPEdNmns_0Dr",
+                eventId: "click_ubereats"
               },
               {
                 icon: <ShoppingBag size={22} className="text-ua-orange" />,
                 title: "DoorDash",
                 desc: "Order through DoorDash and track your delivery.",
                 url: "https://www.doordash.com/store/uncle-authentic-chicken-rice-%EF%BC%88-uncle-%E6%B5%B7%E5%8D%97%E9%B8%A1%E9%A5%AD%E4%B8%93%E9%97%A8%E5%BA%97%EF%BC%89-adelaide-25211693/34380555/?srsltid=AfmBOooLJi9LBDuxIjl9D8d2KJnFy8jyAIPwfGIYej35tzwjFp7MJ9o4",
+                eventId: "click_doordash"
               },
             ].map((card, i) => (
               <a
@@ -97,6 +101,7 @@ export default function UtilitySection() {
                 href={card.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => Clarity.event(card.eventId)}
                 className="bg-white border border-ua-charcoal/8 p-5 group flex items-center justify-between hover:border-ua-orange/30 hover:shadow-md transition-all duration-200"
                 style={{ borderRadius: "2px" }}
               >
