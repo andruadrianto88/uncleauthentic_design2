@@ -55,20 +55,24 @@ export default function UtilitySection() {
             </p>
 
             {/* Info pills */}
-            <div className="flex flex-wrap gap-4 mb-8 fade-up delay-200">
-              <div className="flex items-center gap-2 bg-ua-cream px-4 py-2.5 rounded-sm">
-                <MapPin size={15} className="text-ua-orange" />
-                <span className="font-body text-ua-charcoal/80" style={{ fontSize: "0.875rem" }}>
-                  4A/8 Waymouth St, Adelaide SA 5000
-                </span>
+              <div className="flex flex-col gap-3 mb-8 fade-up delay-200">
+                <div className="flex items-center gap-2 bg-ua-cream w-fit px-4 py-2.5 rounded-sm">
+                  <MapPin size={15} className="text-ua-orange" />
+                  <span className="font-body text-ua-charcoal/80" style={{ fontSize: "0.875rem" }}>
+                    4A/8 Waymouth St, Adelaide SA 5000
+                  </span>
+                </div>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=growiseuncle@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 w-fit bg-ua-orange/10 px-4 py-2.5 rounded-sm border border-ua-orange/20 hover:bg-ua-orange/20 hover:border-ua-orange/40 transition-all group shadow-sm cursor-pointer">
+                  <Mail size={15} className="text-ua-orange group-hover:scale-110 transition-transform" />
+                  <span className="font-body text-ua-charcoal font-medium" style={{ fontSize: "0.925rem" }}>
+                    Catering available
+                  </span>
+                  <span className="text-ua-charcoal/30 mx-1">•</span>
+                  <span className="font-body text-ua-orange font-bold uppercase tracking-widest text-[10px] sm:text-xs underline-offset-4 group-hover:underline transition-all">
+                    Enquire More
+                  </span>
+                </a>
               </div>
-              <a href="mailto:growiseuncle@gmail.com" className="flex items-center gap-2 bg-ua-orange/10 px-4 py-2.5 rounded-sm border border-ua-orange/20 hover:bg-ua-orange/20 transition-colors group">
-                <Mail size={15} className="text-ua-orange" />
-                <span className="font-body text-ua-charcoal font-medium" style={{ fontSize: "0.925rem" }}>
-                  Catering available — contact <span className="font-semibold text-ua-charcoal group-hover:text-ua-orange transition-colors">growiseuncle@gmail.com</span> for details
-                </span>
-              </a>
-            </div>
           </div>
 
           {/* Right: Order options cards */}

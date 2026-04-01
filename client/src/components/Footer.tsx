@@ -27,7 +27,7 @@ const SOCIAL_LINKS = [
   },
   {
     label: "Email",
-    href: "mailto:growiseuncle@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=growiseuncle@gmail.com",
     icon: <Mail size={17} />,
   },
 ];
@@ -116,8 +116,8 @@ export default function Footer() {
                 <a
                   key={s.label}
                   href={s.href}
-                  target={s.label === "Email" ? undefined : "_blank"}
-                  rel={s.label === "Email" ? undefined : "noopener noreferrer"}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={s.label}
                   className="flex items-center justify-center text-white/50 hover:text-ua-orange border border-white/15 hover:border-ua-orange/40 transition-all duration-200"
                   style={{ width: "2.25rem", height: "2.25rem", borderRadius: "2px" }}

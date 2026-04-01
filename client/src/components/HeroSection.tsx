@@ -53,7 +53,7 @@ export default function HeroSection() {
       >
         <div className="max-w-2xl">
           {/* Label */}
-          <div className="flex items-center gap-3 mb-5 fade-up">
+          <div className="flex items-center gap-3 mb-5 fade-up delay-100">
             <div className="orange-rule" />
             <span className="section-label text-white/70">Adelaide, South Australia</span>
           </div>
@@ -97,9 +97,15 @@ export default function HeroSection() {
               className="btn-primary"
             >
               Order Direct
-              <span className="text-white/60 font-normal normal-case tracking-normal" style={{ fontSize: "0.7rem" }}>
-                &nbsp;(Support Local)
-              </span>
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=growiseuncle@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 font-body font-semibold text-[0.8125rem] tracking-[0.1em] uppercase border-[1.5px] border-white bg-white text-[#2A2A2A] hover:bg-gray-100 hover:border-gray-100 transition-all duration-200 ease hover:-translate-y-[1px] hover:shadow-[0_4px_16px_rgba(255,255,255,0.3)] whitespace-nowrap"
+              style={{ padding: "0.75rem 1.75rem" }}
+            >
+              Catering
             </a>
             <a
               href="#menu"
