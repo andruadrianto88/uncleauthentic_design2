@@ -11,6 +11,7 @@ const ORDER_URL = "https://uncleauthentichainanesechickenrice.square.site/#LS4DA
 const NAV_LINKS = [
   { label: "Our Menu", href: "#menu" },
   { label: "Our Story", href: "#story" },
+  { label: "Enquiry", href: "#enquire" },
   { label: "Order Direct", href: ORDER_URL, external: true },
 ];
 

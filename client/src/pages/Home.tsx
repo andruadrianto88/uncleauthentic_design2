@@ -9,6 +9,7 @@ import HeroSection from "@/components/HeroSection";
 import UtilitySection from "@/components/UtilitySection";
 import MenuSection from "@/components/MenuSection";
 import StorySection from "@/components/StorySection";
+import EnquirySection from "@/components/EnquirySection";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
 
@@ -40,6 +41,7 @@ export default function Home() {
         <MenuSection />
         <StorySection />
         <UtilitySection />
+        <EnquirySection />
       </main>
       <Footer />
     </div>
