@@ -62,7 +62,7 @@ export default function UtilitySection() {
                     4A/8 Waymouth St, Adelaide SA 5000
                   </span>
                 </div>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=growiseuncle@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 w-fit bg-ua-orange/10 px-4 py-2.5 rounded-sm border border-ua-orange/20 hover:bg-ua-orange/20 hover:border-ua-orange/40 transition-all group shadow-sm cursor-pointer">
+                <a href="mailto:growiseuncle@gmail.com" className="flex items-center gap-3 w-fit bg-ua-orange/10 px-4 py-2.5 rounded-sm border border-ua-orange/20 hover:bg-ua-orange/20 hover:border-ua-orange/40 transition-all group shadow-sm cursor-pointer">
                   <Mail size={15} className="text-ua-orange group-hover:scale-110 transition-transform" />
                   <span className="font-body text-ua-charcoal font-medium" style={{ fontSize: "0.925rem" }}>
                     Catering available

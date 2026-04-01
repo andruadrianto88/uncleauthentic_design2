@@ -99,9 +99,7 @@ export default function HeroSection() {
               Order Direct
             </a>
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=growiseuncle@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:growiseuncle@gmail.com"
               className="inline-flex items-center gap-2 font-body font-semibold text-[0.8125rem] tracking-[0.1em] uppercase border-[1.5px] border-white bg-white text-[#2A2A2A] hover:bg-gray-100 hover:border-gray-100 transition-all duration-200 ease hover:-translate-y-[1px] hover:shadow-[0_4px_16px_rgba(255,255,255,0.3)] whitespace-nowrap"
               style={{ padding: "0.75rem 1.75rem" }}
             >
