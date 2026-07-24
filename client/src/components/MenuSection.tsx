@@ -45,7 +45,7 @@ export default function MenuSection() {
           </p>
           
           <a
-            href="/assets/Uncle-Menu_2026_July.pdf"
+            href="/assets/Uncle-Menu_2027_July.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2 mb-10"
